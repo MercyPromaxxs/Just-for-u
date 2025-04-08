@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Made by มะมะมะเมอซี่</h1>
+    </header>
+
+  <div class="container">
+    <h2 id="songTitle">I love u most 🎵</h2>
+    <img src="GIF.gif" alt="Album Cover" class="album-cover">
+
+    <div class="controls">
+      <button id="playPauseBtn">▶️</button>
+      <span id="currentTime">0:00</span>
+      <input type="range" id="progressBar" value="0" min="0" max="100">
+      <span id="duration">0:00</span>
+    </div>
+  </div>
+
+  <audio id="myAudio" src="music.mp3"></audio>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
